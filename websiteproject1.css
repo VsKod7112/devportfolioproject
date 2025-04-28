@@ -1,0 +1,121 @@
+.social-link svg {
+    height: 30px;
+    width: 30px;
+    fill: #fff;
+/* fill is used to fill the icons in the svg*/
+
+}
+body{
+    background-color:#111926;
+    color: #fff;
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+margin: 0px;
+
+}
+header a{
+    color: #fff;
+    /* all links in the header are going to be white text */
+    text-decoration:none;
+    /* no more underlining for our links u can still press them */
+    line-height: 30px;
+    /*this lets us determine how far off the top of the website we want our header*/
+    display:inline-block;
+}
+.header2 {
+    display:flex;
+    justify-content: center;
+    background-color:#223040;
+
+}
+header nav {
+    display:flex;
+    /* every single nav element is now under flexbox properties */
+}
+header nav a {
+    padding: 0 10px;
+    color: rgba(255,255,255,0.5);
+}
+.sansation-regular-italic {
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: italic; }
+    
+    div.intro{
+        display:flex;
+        gap: 20px;
+        justify-content:center;
+        background-color: #111926;
+        
+
+    }
+    #person1 {
+        width: 200px;
+        border: solid lightslategray 1px;
+    }
+    div.intro p {
+        margin: 0px;
+        align-self: center;
+    }
+   .active {
+    color: #fff;
+    text-decoration: underline;
+   }
+   .h1 {
+
+   }
+   h1{
+padding-top: 50px;
+background-color:#223040;
+font-size: 50px;
+line-height: 10px;
+margin-top: 0px;
+
+   }
+   footer a{
+    text-decoration:inherit;
+
+   }
+   footer {
+    display:flex;
+    padding:20px 0;
+    margin-top: 50px;
+    border-top: 1px solid; 
+    justify-content: center;
+
+
+
+   }
+  footer p{
+    align-self:center;
+margin: 0px;
+
+   }
+   .proekt {
+    color: #fff;
+    text-decoration: underline;
+   }
+   .kontakt {
+    color: #fff;
+    text-decoration: underline;
+   }
+   .contactmepage {
+    display:flex;
+    justify-content: center;
+    font-size: 18px;
+
+   }
+   .aboutmepage a {
+    color: #fff;
+  
+    text-decoration:none;
+  
+    line-height: 30px;
+ 
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+
+
+   }
